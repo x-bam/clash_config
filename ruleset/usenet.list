@@ -1,2 +1,52 @@
 DOMAIN-SUFFIX,news.newsgroup.ninja
 DOMAIN-SUFFIX,news.usenet.farm
+
+# --- Apple NTP ---
+DOMAIN,time.apple.com
+
+# --- Google NTP (may be blocked) ---
+DOMAIN,time.google.com
+
+# --- Microsoft NTP ---
+DOMAIN,time.windows.com
+DOMAIN,time-nw.nist.gov
+
+# --- Ubuntu / Debian / Linux ---
+DOMAIN,ntp.ubuntu.com
+DOMAIN-SUFFIX,ubuntu.pool.ntp.org
+DOMAIN-SUFFIX,debian.pool.ntp.org
+DOMAIN-SUFFIX,pool.ntp.org
+
+# --- Chinese Public NTP Servers (Highly Reliable in China) ---
+DOMAIN,ntp.aliyun.com
+DOMAIN,time1.aliyun.com
+DOMAIN,time2.aliyun.com
+DOMAIN,time3.aliyun.com
+DOMAIN,time4.aliyun.com
+DOMAIN,time5.aliyun.com
+DOMAIN,time6.aliyun.com
+DOMAIN,time7.aliyun.com
+
+DOMAIN,time1.cloud.tencent.com
+DOMAIN,time2.cloud.tencent.com
+DOMAIN,time3.cloud.tencent.com
+DOMAIN,time4.cloud.tencent.com
+DOMAIN,time5.cloud.tencent.com
+
+DOMAIN,ntp.ntsc.ac.cn
+
+# --- China NTP Pools ---
+DOMAIN,cn.pool.ntp.org
+DOMAIN,0.cn.pool.ntp.org
+DOMAIN,1.cn.pool.ntp.org
+DOMAIN,2.cn.pool.ntp.org
+DOMAIN,3.cn.pool.ntp.org
+
+# --- NTP from Chinese Universities ---
+DOMAIN,ntp.sjtu.edu.cn
+DOMAIN,ntp.neu.edu.cn
+DOMAIN,ntp.bupt.edu.cn
+DOMAIN,ntp.shu.edu.cn
+
+# --- General fallback: send all UDP port 123 traffic directly ---
+DST-PORT,123
